@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_Formulario</title>
+</head>
+<body>
+    <form action="Repuesta.html" method="get">
+     <h1>Formulario</h1>
+    <label for="">1.- Escribe tu Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <br>
+        <label for="">2.- Escribe tu Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+        <br>
+        <br>
+        <label for="">3.- Escribe tu Email:</label>
+        <input type="text" name="email" id="email">
+        <br>
+        <br>
+        <label for="grado">4.- ¿ Qué Valoración le das a la Publicación ?:</label>
+        <br>
+        <br>
+        <input type="radio" name="Valoración" id="Valoración" value="0"> 0
+        <input type="radio" name="Valoración" id="Valoración" value="1"> 1
+        <input type="radio" name="Valoración" id="Valoración" value="2"> 2
+        <input type="radio" name="Valoración" id="Valoración" value="3"> 3
+        <input type="radio" name="Valoración" id="Valoración" value="4"> 4
+        <input type="radio" name="Valoración" id="Valoración" value="5"> 5
+        <br>
+        <br>
+        <label for="asignatura">5.- ¿ Que Asignatura has Estudiado ?:</label>
+        <br>
+        <br>
+        <input type="checkbox" name="SQL" id="SQL"> SQL 
+        <input type="checkbox" name="Html" id="Html"> Html
+        <input type="checkbox" name="Css" id="Css"> Css
+        <input type="checkbox" name="JavaScript" id="JavaScript"> JavaScript
+        <br>
+        <br>
+        <p>6.- Seleciona tú Alineación Ideal:</p>
+        <select name="Alineación" id="Alineación" size="6" multiple>
+                <option value="Cristiano"> Cristiano</option>
+                <option value="Messi">Messi</option>
+                <option value="Chigrinsky">Chigrinsky</option>
+                <option value="Sergio Ramos">Sergio Ramos</option>
+                <option value="ShevChenko">Shevchenko</option>
+                <option value="Ronaldo">Ronaldo</option>
+        </select>
+        <p>7.- Que Mejorarias de Esté Curso:</p>
+        <textarea name="Comentarios" id="comentario" cols="60" rows="5"></textarea>
+        <br>
+        <input type="submit" value="nombre">
+    </form>    
+</body>
+</html>
